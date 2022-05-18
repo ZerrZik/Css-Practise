@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #1544c6, #0067d8, #0084dd, #009dda, #00b3d4, #00c0d5, #09ccd4, #32d8d0, #3fe1d8, #4ae9e0, #55f2e9, #5ffbf1);
+}
+
+.icon {
+     margin-top: 50px;
+}
+
+.underHeader {
+    color: #b8c2c7;
+}
+
+.timelineNumber {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.timelineDays {
+    color: white;
+    font-size: 16px;
+}
+
+.days {
+    margin-left: 40px;
+}
+
+.hours {
+    margin-left: 95px;
+}
+
+.minutes {
+    margin-left: 75px;
+}
+
+.seconds {
+    margin-left: 70px ;
+}
+
+.headerEmailInput {
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 280px 10px 0px;
+    background: transparent;
+}
+
+.headerEmailInput::placeholder {
+    color: white;
+}
+
+.firstDiv {
+    width: 22%;
+    margin-right: 60px;
+}
+
+.secondDiv {
+    width: 20%;
+    margin-left: 60px;
+}
+
+input[type=submit] {
+    background-color: #ea1e64;
+    border: 0;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.fa-chevron-circle-down {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white ;
+}
+
+.middleDivs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rangeInput {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    color: gray;
+    font-size: 14px;
+}
+
+p {
+    color: gray;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+.companyDetails {
+    color: #ea1e64;
+    font-weight: bold;
+}
+
+.contactFormInputs {
+    border: 0;
+    border-bottom: 2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding:0% 10% 2% 0%;
+    background: transparent;
+}
+
+textarea {
+    border: 0;
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px 270px 30px 0px;
+    background: transparent;
+}
+
+.sendMessageButton {
+    margin-right: 40px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.bottomSection {
+    display: flex;
+    justify-content: center;
+    background-color: #03a9f3;
+    height: 100%;
+}
+
+.bottomIcons {
+    text-align: center;
+    color: white;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-tumblr,
+.fa-linkedin-in, .fa-instagram,
+.fa-wifi {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.matroxLogo {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.companyName {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.purchase {
+    text-align: center;
+    width: 650px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+

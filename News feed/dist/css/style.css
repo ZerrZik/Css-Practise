@@ -1,0 +1,131 @@
+/* Prijungti Css */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Heading with links */
+.header{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topicLeft ul li{
+    display: inline-block;
+}
+
+.topicRight ul{
+    list-style: none;
+}
+
+.topicRight ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.topicRight ul li a{
+    text-decoration: none;
+}
+
+/* a .topicRight link class */
+.redLogo{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+.textColor{
+    text-decoration: none;
+    color: #67aac3;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mostPopular{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Date and info container*/
+
+.dateTopic{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dateTopic{
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+}
+
+.dateLeft{
+    width: 400px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.top{
+    background-color: #ec2321;
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.middle{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px dotted grey;
+    border-left: 1px dotted grey;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.bottom{
+    background-color:#5d5d61;
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.newsDescription{
+    border-left: 2px solid #c5c7c5;
+}
+
+.alignment{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 2px 0;
+}
+
+h3{
+    font-family:'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}

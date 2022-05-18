@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy Booking Form</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <h1>Classy Booking Form</h1>
+    <div class="container">
+        <form>
+                <div class="labelClass">
+                    <label for="fullName" class="labelSize">Full Name*</label>
+                    <input type="text" name="fullName" class="fullName">
+                </div>
+                <div class="labelClass">
+                    <label for="email">Email ID*</label>
+                    <input type="email" name="email" class="email">
+                </div>
+                <div class="labelClass">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" name="tel">
+                </div>
+                <div class="labelClass">
+                    <label for="departureDate">Departure Date/Time*</label>
+                    <input type="date" name="departureDate" class="departureDate" placeholder="dd-mm-yyyy" onfocus="(this.type='date')">
+                    <select id="dhour" name="dhour" class="timing">
+                        <option value="dHour">Hr</option>
+                        <option value="d1Hour">1</option>
+                        <option value="d2Hour">2</option>
+                        <option value="d3Hour">3</option>
+                        <option value="d4Hour">4</option>
+                        <option value="d5Hour">5</option>
+                        <option value="d6Hour">6</option>
+                        <option value="d7Hour">7</option>
+                        <option value="d8Hour">8</option>
+                        <option value="d9Hour">9</option>
+                        <option value="d10Hour">10</option>
+                        <option value="d11Hour">11</option>
+                        <option value="d12Hour">12</option>
+                    </select>
+                    <select id="dminute" name="dMinute" class="timing">
+                        <option value="">Min</option>
+                        <option value="d0minute">0</option>
+                        <option value="d15minute">15</option>
+                        <option value="d30minute">30</option>
+                        <option value="d45minute">45</option>
+                    </select>
+                    <select id="dAM" name="dAM" class="timing">
+                        <option value="dAfterMorning">AM</option>
+                        <option value="dAfterMorning">PM</option>
+                    </select>
+                </div>
+                    <div class="labelClass">
+                        <label for="returnDate">Return Date/Time*</label>
+                        <input type="date" name="returnDate" class="returnDate">
+                        <select id="rhour" name="rhour" class="timing">
+                            <option value="rHour">Hr</option>
+                            <option value="r1Hour">1</option>
+                            <option value="r2Hour">2</option>
+                            <option value="r3Hour">3</option>
+                            <option value="r4Hour">4</option>
+                            <option value="r5Hour">5</option>
+                            <option value="r6Hour">6</option>
+                            <option value="r7Hour">7</option>
+                            <option value="r8Hour">8</option>
+                            <option value="r9Hour">9</option>
+                            <option value="r10Hour">10</option>
+                            <option value="r11Hour">11</option>
+                            <option value="r12Hour">12</option>
+                        </select>
+                        <select id="rMinute" name="rMinute" class="timing">
+                            <option value="">Min</option>
+                            <option value="r0minute">0</option>
+                            <option value="r15minute">15</option>
+                            <option value="r30minute">30</option>
+                            <option value="r45minute">45</option>
+                        </select>
+                        <select id="rAM" name="rAm" class="timing">
+                            <option value="rAfterMorning">AM</option>
+                            <option value="rPerMorning">PM</option>
+                        </select>
+                    </div>
+                    <div class="labelClass">
+                        <label for="pickupAddress">Pickup Address*</label>
+                        <textarea name="pickupAddress"></textarea>
+                    </div>
+                    <div class="labelClass">
+                        <label for="destinationAddress">Destination Address*</label>
+                        <textarea name="destinationAddress"></textarea>
+                    </div>
+                    <div class="labelClass">
+                        <label for="journeyType">Journey Type*</label>
+                        <select id="journeyType" name="journeyType">
+                            <option value="journeyTypeOne">One-way</option>
+                            <option value="journeyTypeRound">Round-trip</option>
+                        </select>
+                    </div>
+                    <div class="labelClass">
+                        <label for="passengerNumber">Number of Passengers*</label>
+                        <select name="passengerNumber" id="passengerNumber">
+                            <option value="passengerNumber1">1</option>
+                            <option value="passengerNumber2">2</option>
+                            <option value="passengerNumber1">3</option>
+                            <option value="passengerNumber2">4</option>
+                        </select>
+                    </div>
+                    <div class="labelClass">
+                        <label for="additionalMessage">Additional Message:</label>
+                        <textarea name="additionalMessage"></textarea>
+                    </div>
+                <input type="submit" name="submit" class="button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

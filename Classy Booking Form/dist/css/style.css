@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Aeroplane.jpg);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f9f6f3;
+    font-size: 48px;
+}
+
+.container {
+    width: 580px;
+    height: 700px;
+    margin: 25px auto;
+    /* border: 1px solid black; */
+    padding: 40px 0;
+    background-color: rgba(231, 222, 222, 0.3);
+}
+
+.labelClass {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  
+.labelClass label {
+    flex: none;
+    display: block;
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #f9f6f3;
+    font-weight: bold;
+  }
+
+  .labelClass input[type=text], input[type=email], input[type=tel] {
+      flex: none;
+      display: block;
+      width: 350px;
+      margin-right: 20px;
+  }
+
+  input[type=date] {
+      width: 195px;
+      margin-right: 26px;
+  }
+
+  textarea {
+      width: 350px;
+      height: 80px;
+  }
+
+  .button {
+      background-color: #121838;
+      padding: 8px 35px;
+      color: #f9f6f3;
+      float: right;
+      margin-top: 20px;
+      margin-right: 30px;
+      border: none;
+  }
+
+  .button:hover {
+      background-color: grey;
+  }
