@@ -1,0 +1,90 @@
+/* ---------------Cards------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.column {
+    height: 100%;
+    width: 32%;
+    padding: 25px 0px;
+}
+
+.imageBlock {
+    position: relative;
+}
+
+.imageBlock,
+.imageBlock .overlay,
+.imageBlock .image,
+.imageBlock .greenLayer {
+    height: 100%;
+    width: 100%;
+}
+
+.imageBlock .overlay,
+.imageBlock .image,
+.imageBlock .greenlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.image {
+    z-index: 2;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.imageBlock .image img {
+    height: 100%;
+    width: 100%;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.imageBlock .greenLayer {
+    background-color: #95e1d3;
+    z-index: 1;
+}
+
+.imageBlock:hover .overlay {
+    background-color: rgba(243, 129, 129, 0.75);
+    opacity: 1;
+    transform: translate(-10px, -10px);
+}
+
+.imageBlock:hover .image {
+    transform: translate(-10px, -10px);
+}
+
+.imageBlock .overlay i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
